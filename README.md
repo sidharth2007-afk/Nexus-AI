@@ -69,8 +69,8 @@ This project implements an AI-powered real-time energy efficiency dashboard for 
 - `GET /realtime/vm`: Returns VM metrics, cluster, and recommendation.
 
 ## Models
-- **Forecast Model**: Predicts power usage (likely a regression model).
-- **Anomaly Model**: Detects anomalies (e.g., Isolation Forest).
+- **Forecast Model**: Predicts power usage (Gradient Boosting Regressor model).
+- **Anomaly Model**: Detects anomalies (Isolation Forest).
 - **K-Means Model**: Clusters VMs based on features.
 - **Scaler**: Standardizes input features for ML models.
 
